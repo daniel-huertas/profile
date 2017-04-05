@@ -1,0 +1,81 @@
+body {
+  background: #fffaef ;
+  color: rgb(30,30,30);
+  font-family: 'Open Sans', sans-serif;
+  font-size : 17px;
+  font-weight: lighter;
+}
+h1,h2,h3{
+ font-family: 'Montserrat', sans-serif;
+  color: #586E75;
+}
+h1{
+  font-size: 24px;
+}
+h2{
+  font-size: 20px;
+}
+p{
+  font-size: smaller;
+}
+a{
+  text-decoration: none;
+  color: #9D858D;
+  font-weight: bolder;
+}
+a:hover {
+  color: #2AA198;
+}
+.img-circle{
+   /* Center the image within the element */
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.card-white{
+  background: white;                          /* White background */
+  padding: 30px;
+  width: 500px;
+  margin: 10px auto;                         /* Internal space */
+  border-radius: 4px;                         /* Small radius */
+  box-shadow: 1px 1px 3px #f4f0e6
+}
+
+.text-center {
+  text-align: center
+}
+
+.btn-red {
+    background-color: #DD5555;
+    color: white;
+    font-weight: 500px;
+    font-size: smaller;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 13px #3D3D3B;
+    transition: all 0.3s ease;
+}
+
+
+.list-inline_small li {
+  style: none;
+  padding-left: 0px;
+  display: inline-block;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.list-inline_big li {
+  style: none;
+  padding-left: 0px;
+  display: inline-block;
+  padding: 20px;
+  font-size: 40px;
+}
+
+.container {
+  width: 500px;   /* Set width */
+  margin: 0 auto; /* Automatically set left/right margins */
+}
+
+
